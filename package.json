@@ -2,7 +2,7 @@
   "name": "osm-p2p-append",
   "description": "append OSM documents into an osm-p2p-db",
   "author": "Stephen Whitmore <sww@eight.net>",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bin": {
     "osm-p2p-append": "bin.js"
   },
