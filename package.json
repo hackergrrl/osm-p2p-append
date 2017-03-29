@@ -1,0 +1,36 @@
+{
+  "name": "osm-p2p-append",
+  "description": "append OSM documents into an osm-p2p-db",
+  "author": "Stephen Whitmore <sww@eight.net>",
+  "version": "0.0.0",
+  "bin": {
+    "osm-p2p-append": "bin.js"
+  },
+  "repository": {
+    "url": "git://github.com/noffle/osm-p2p-append.git"
+  },
+  "homepage": "https://github.com/noffle/osm-p2p-append",
+  "bugs": "https://github.com/noffle/osm-p2p-append/issues",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "keywords": [
+    "osm",
+    "osm-p2p",
+    "osm-p2p-db",
+    "append"
+  ],
+  "dependencies": {
+    "fd-chunk-store": "^2.0.0",
+    "hyperlog": "^4.12.1",
+    "ndjson": "^1.5.0",
+    "osm-p2p-db": "^3.11.0",
+    "pumpify": "^1.3.5",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "standard": "~8.3.0"
+  },
+  "license": "ISC"
+}
